@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1rem;
+    border-top: 2px solid black;
+}
+  .footer-up{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .footer-up img{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .socialmedia{
+    display: flex;
+  }
+  .terms-policy{
+    display: flex;
+    gap: 40px;
+  }
+  .icons{
+    margin-right: 2px;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  .footer-bellow{
+    width: 70%;
+    border-top: 2px solid black;
+    text-align: center;
+    margin: auto;
+  }
