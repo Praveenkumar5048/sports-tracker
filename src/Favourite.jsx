@@ -12,7 +12,7 @@ function Favourite() {
   const [teamIdMap, setTeamIdMap] = useState({
     // Define the mapping of team names to their corresponding IDs
     'India': { idForPlayers: 35105, idForSchedule: 2 },
-    'NewZeland': { idForPlayers: 35303, idForSchedule: 13 },
+    'NewZealand': { idForPlayers: 35303, idForSchedule: 13 },
     'Australia': { idForPlayers: 35177, idForSchedule: 4 },
     'England': { idForPlayers: 35513, idForSchedule: 9 },
     'Srilanka': { idForPlayers: 36146, idForSchedule: 5 },

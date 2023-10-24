@@ -2,7 +2,7 @@ const TeamsList = [
    {
       id : 1,
       img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStb6_3Ho4-ClPc40lylUbyXEI8gQeq7eAstg&usqp=CAU",
-      name :"NewZeland",
+      name :"NewZealand",
    },
    {
     id : 2,

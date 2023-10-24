@@ -1,0 +1,36 @@
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+
+.about-container h2 {
+    font-size: 30px;
+    color: rgb(220, 72, 9);
+}
+
+.about-container p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #666;
+}
