@@ -35,9 +35,9 @@ cd sportstracker-application
 
 ## Usage
 
-- To track a sports team's ongoing matches, first the user as to choose his sport in the Home page.  As of now only Cricket sport is availabel to tract the teams.
+- To track a sports team's ongoing matches, first the user has to choose his sport in the Home page.  As of now only Cricket sport is available to tract the teams.
 - In the cricket page the user can add his team/teams to favourites, to track the schedules of that team. This page also displays points table of the ongoing ICC cricket world cup tournament.
 - The added favourite teams are displayed in the favourites section where the users can get the players list and the schedules for the Ongoing ICC cricket world cup 2023.
 
-# Note on Cookies
+## Note on Cookies
 -This application uses cookies to enhance user experience. Cookies are employed for storing the users favourite teams list instead of using a database.
