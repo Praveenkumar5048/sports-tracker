@@ -13,6 +13,7 @@ This application is a frontend-only web application developed using React framew
 - User-friendly interface for easy navigation and interaction.
 
 ## Demo
+- Here is the link to the demostration video of the project [Demo Video](https://drive.google.com/file/d/1AIQoJpeN9mO5Xj25lfBnE1k8LdEnpqlB/view?usp=sharing).
 
 ## Getting Started
 ### Installation
