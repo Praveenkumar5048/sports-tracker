@@ -41,3 +41,9 @@ cd sportstracker-application
 
 ## Note on Cookies
 -This application uses cookies to enhance user experience. Cookies are employed for storing the users favourite teams list instead of using a database.
+
+## API Usage
+This application provides up-to-date ongoing cricket match results and information. I have used the [Cricbuzz Cricket API](https://rapidapi.com/cricketapilive/api/cricbuzz-cricket) to fetch live cricket-related data.
+
+
+
