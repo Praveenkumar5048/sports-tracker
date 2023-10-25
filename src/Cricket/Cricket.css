@@ -67,24 +67,19 @@
 .points-table2 {
     width: 600px;
     border-collapse: collapse;
-    /* border-radius: 15px; Add border radius to the entire table */
-    background-color: #fff; /* White background for the entire table */
+    background-color: #fff;
   }
   
   .points-table2 th, .points-table2 td {
-    /* border: 1px solid #ddd; */
+    
     padding: 8px;
     text-align: center;
   }
   
   .points-table2 thead {
-    background-color: #000; /* Black background for the heading */
-    color: #fff; /* White text color for the heading */
+    background-color: #000; 
+    color: #fff; 
   }
-  
-  /* .points-table2 th {
-    border-radius: 0; /* Remove border radius from table header cells */
-  
   
   .points-table2 tbody tr:nth-child(odd) {
     background-color: #f2f2f2;

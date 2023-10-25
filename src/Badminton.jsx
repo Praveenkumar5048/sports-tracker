@@ -9,6 +9,9 @@ import bmt5 from './Resources/2023-BWF.png';
 function Badminton() {
 return (
     <div>
+        <header className="badminton-header">
+        <h2>Upcoming Tournaments</h2>
+        </header>
     <div class="section">
         <img src={bmt1} alt="Image 1" width="150px" height="150px" />
         <div>

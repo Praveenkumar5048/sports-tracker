@@ -62,7 +62,7 @@ function Cricket() {
           setPointsTableData(response.data);
         } catch (error) {
           console.error(error);
-          // Handle the error here, e.g., set an error state
+          
         }
       }
     }
