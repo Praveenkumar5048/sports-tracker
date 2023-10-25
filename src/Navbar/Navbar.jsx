@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../Resources/logo.png';
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faCartShopping, faHeart, faHouse, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass, faCartShopping, faHeart, faHouse } from '@fortawesome/free-solid-svg-icons';
 import  './Navbar.css';
 
 function Navbar(){
@@ -32,9 +32,7 @@ function Navbar(){
      <span className="options">Cart<FontAwesomeIcon icon={faCartShopping} style={{color: "#1e1e1f",}} /></span> 
      </div>
      </div>
-     <div className="hamburger">
-     <FontAwesomeIcon icon={faBars} size="xl" style={{color: "#f0f2f4",}} />
-     </div>
+     
     </div>
     );
 }

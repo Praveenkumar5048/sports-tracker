@@ -59,17 +59,7 @@
     border-bottom-right-radius: 15px;
     border: none;
 }
-.hamburger{
-    display: none;
-    position: absolute;
-    top: 25px;
-    right: 20px;
-}
-@media (max-width: 556px) {
-    .hamburger {
-      display: block;
-    }
-  }
+
 .nav-link{
     text-decoration: none;
 }
