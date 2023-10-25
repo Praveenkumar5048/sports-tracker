@@ -1,0 +1,28 @@
+.section {
+            
+    width: 800px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.section:hover{
+    background-color: rgb(161, 158, 158);
+}
+.section img {
+    margin-right: 20px;
+}
+
+.section h2 {
+    color: rgb(220, 72, 9);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.section p {
+    font-size: 1.2rem;
+}
