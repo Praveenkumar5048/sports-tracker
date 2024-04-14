@@ -21,9 +21,9 @@ function Cricket() {
       const updatedTeams = favouriteTeams.filter((name) => name !== teamName);
       setFavouriteTeams(updatedTeams);
       Cookies.set('favoriteTeams', updatedTeams.join(','));
-      // Show a confirmation message
+      // Show a confirmation message  
       showConfirmationMessage(`Removed ${teamName} from favorites`);
-    } else {
+    } else {   
       // Team is not a favorite, add it
       const updatedTeams = [...favouriteTeams, teamName];
       setFavouriteTeams(updatedTeams);
@@ -67,7 +67,7 @@ function Cricket() {
       }
     }
   
-
+    
   useEffect(() => {
     const cookieValue = Cookies.get('favoriteTeams');
     if (cookieValue) {
@@ -87,7 +87,7 @@ function Cricket() {
     } else {
       setShowTeams(false);
       setFetchPointsTableData(true); // Set the flag to true when the "Points Table" button is clicked
-      fetchPointsTable(); // Make the API request
+      fetchPointsTable(); // Make the API request         
     }
     setActiveButton(buttonName); // Set the active button
   }
@@ -147,7 +147,7 @@ function Cricket() {
              </thead>
            <tbody>
           {pointsTableData && 
-          
+
               pointsTableData.pointsTable[0].pointsTableInfo.map((teamInfo, index) => (
                 <tr key={index}>
                 <td>{teamInfo.teamFullName}</td>
@@ -166,8 +166,6 @@ function Cricket() {
 }
 
 export default Cricket;
-
-  
   
   
   

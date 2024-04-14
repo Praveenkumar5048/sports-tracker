@@ -23,7 +23,7 @@ function Favourite() {
     'South Africa': { idForPlayers: 35112, idForSchedule: 11 },
  // Add mappings for all 10 teams
 });
-  
+
 const handlePlayerButtonClick = async (teamName) => {
   // Clear previous schedule data
   setPlayers([]);

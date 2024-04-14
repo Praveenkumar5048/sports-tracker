@@ -24,13 +24,9 @@ git clone https://github.com/Praveenkumar5048/sportstracker-application.git
 cd sportstracker-application
 ```
 
-2. Install dependencies:
+2. Install dependencies and start:
    ```bash
    npm install
-   npm install --save font-awesome
-   npm install react-responsive-carousel --save
-   npm install js-cookie --save
-   npm install axios --save
    npm start
    ```
 
@@ -46,13 +42,6 @@ cd sportstracker-application
 ## API Usage
 This application provides up-to-date ongoing cricket match results and information. I have used the [Cricbuzz Cricket API](https://rapidapi.com/cricketapilive/api/cricbuzz-cricket) to fetch live cricket-related data.
 
-## Planned Features
-- Backend Integration to provide enhanced functionality and better Data management.
-- Enabling mutliple sports for tracking.
-- News section to update the users with the latest sports news and achievements.
-- Enhanced mobile Responsiveness.
-- Introduction of "Shop Section" in our sports tracker application. This feature aims to connect users with local sports merchandise providers, making it easier for sports enthusiasts to discover and connect with nearby businesses that offer their favorite gear, clothing, and equipment.
-- The "Shop Section" is not an e-commerce platform, but rather a hub for connecting with local sports businesses.
 
 ## Resources Used
 - Google and various youtube web development tutorials
