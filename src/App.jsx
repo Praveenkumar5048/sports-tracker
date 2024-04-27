@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar.jsx';
 import Home from './Home';
-import Cricket from './Cricket/Cricket';
-import Badminton from './Badminton';
-import Basketball from './Basketball';
-import About from './About';
-import Favourite from './Favourite';
+import Cricket from './pages/cricket/Cricket.jsx';
+import Badminton from './pages/badminton/Badminton.jsx';
+import Basketball from './pages/basketball/Basketball.jsx';
+import About from './pages/about/About.jsx';
+import Favourite from './pages/favourites/Favourite.jsx';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App(){

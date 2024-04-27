@@ -1,10 +1,10 @@
 import React from 'react';
 import './Badminton.css';
-import bmt1 from './Resources/Hylo-badminton.jpg';
-import bmt2 from './Resources/2023-Korea-Masters.png';
-import bmt3 from './Resources/Kumamoto-Masters.png';
-import bmt4 from './Resources/Syed_Modi.png';
-import bmt5 from './Resources/2023-BWF.png';
+import bmt1 from '../../Resources/Hylo-badminton.jpg';
+import bmt2 from '../../Resources/2023-Korea-Masters.png';
+import bmt3 from '../../Resources/Kumamoto-Masters.png';
+import bmt4 from '../../Resources/Syed_Modi.png';
+import bmt5 from '../../Resources/2023-BWF.png';
 
 function Badminton() {
 return (

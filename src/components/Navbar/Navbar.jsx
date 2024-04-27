@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Resources/logo.png';
+import logo from '../../Resources/logo.png';
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faCartShopping, faHeart, faHouse } from '@fortawesome/free-solid-svg-icons';

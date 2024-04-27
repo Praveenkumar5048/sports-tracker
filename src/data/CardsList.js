@@ -1,6 +1,3 @@
-// import cricket from './Resources/cricket.jpg';
-// import badminton from './Resources/badminton.jpg';
-
 const CardsList = [
     {
         id: 1,

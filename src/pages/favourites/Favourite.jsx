@@ -57,7 +57,7 @@ useEffect(() => {
     const teamId = teamData ? teamData.idForPlayers :null;
     
     if (teamId === null){
-      console.error('Team ID not found for ${teamName}');
+      console.error(`Team ID not found for ${teamName}`);
       return;
     }
 

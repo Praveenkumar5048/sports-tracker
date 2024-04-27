@@ -2,9 +2,9 @@ import React from 'react';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Carousel.css';
-import img1 from '../Resources/cricketcarousel.jpg';
-import img3 from '../Resources/basketcarousel.jpg';
-import img2 from '../Resources/footballcarousel.jpg';
+import img1 from '../../Resources/cricketcarousel.jpg';
+import img3 from '../../Resources/basketcarousel.jpg';
+import img2 from '../../Resources/footballcarousel.jpg';
 
 const images = [
    img1,

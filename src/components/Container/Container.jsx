@@ -1,6 +1,6 @@
 import React from 'react';
 import './Container.css';
-import CardsList from '../CardsList';
+import CardsList from '../../data/CardsList';
 import Entry from './Entry';
  
 

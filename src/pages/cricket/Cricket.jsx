@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Cookies from 'js-cookie';
-import logo from '../Resources/cricketlogo.jpg';
+import logo from '../../Resources/cricketlogo.jpg';
 import './Cricket.css';
-import TeamsList from './TeamsList.js';
+import TeamsList from '../../data/TeamsList.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import axios from 'axios';

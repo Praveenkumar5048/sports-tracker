@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logo from '../Resources/logo.png';
+import logo from '../../Resources/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faXTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
 
